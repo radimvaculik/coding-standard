@@ -35,3 +35,8 @@ array_keys(array_filter([], static function (): bool {
 
 in_array(0);
 array_keys([]);
+
+$array = [];
+array_keys(
+	$array,
+);
